@@ -1,0 +1,294 @@
+@media only screen and (min-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    margin: auto;
+    font-family: "Inter", sans-serif;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  /* SET BANNER */
+  .banner {
+    background-image: url(banner.jpg);
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-title {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 2px 2 #199cdb;
+  }
+
+  /* SET NAV */
+  .nav-bar {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+    font-size: 24px;
+    position: relative;
+  }
+
+  /* .item-baner img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 10px solid white;
+    border-radius: 50%;
+    top: -100px;
+  } */
+
+  .item {
+    border-right: 3px solid rgb(226, 226, 226);
+    border-left: 3px solid rgb(226, 226, 226);
+    padding: 20px 20px;
+  }
+
+  .item a {
+    text-decoration: none;
+  }
+
+  /* SET MỤC TIÊU VÀ THÔNG TIN CÁ NHÂN */
+  .bg-grey {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .mtnn {
+    background: #f7f7f7;
+    display: inline-block;
+    padding-top: 200px;
+    /* flex: 1; */
+    padding-left: 100px;
+    padding-right: 20px;
+    font-size: 24px;
+    padding-bottom: 183px;
+  }
+  .ttcn {
+    background: #e0dcdc88;
+    padding-top: 200px;
+    padding-left: 50px;
+    /* flex: 1; */
+    font-size: 24px;
+    padding-bottom: 60px;
+  }
+
+  .ttcn--icon {
+    color: #199cdb;
+    font-size: 24px;
+    padding-top: 40px;
+  }
+
+  /* SET Kinh nghiệm, học vấn, hoạt động, sở thích, ngôn ngữ và kỹ năng*/
+
+  .timeline {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    grid-column: 1/3;
+  }
+  .timeline .timeline--icon::before {
+    position: absolute;
+    content: "\2022";
+    font-size: 1.5em;
+    color: #199cdb;
+    top: -5px;
+    left: -10px;
+  }
+
+  .ht {
+    background-color: #199cdb;
+    color: #f7f7f7;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-style: italic;
+  }
+  .div-icon {
+    color: #2b2c2cc2;
+    font-size: 50px;
+  }
+
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .icon-st {
+    color: #199cdb;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid #199cdb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .st-el--p {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .taps {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+  }
+
+  .tap {
+    width: 80px;
+    height: 4px;
+    background-color: #b3b3b3b9;
+  }
+  .tap--blue {
+    width: 80px;
+    height: 4px;
+    background-color: #199cdb;
+  }
+  .box {
+    width: 30%;
+    margin: 5px;
+  }
+
+  /* SET CHỨNG CHỈ */
+
+  .cer {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+  }
+
+  .cer1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 22px;
+    border-bottom: 2px solid #d6c08d;
+    margin: 20px 00px;
+  }
+  .cer1-el {
+    padding-bottom: 30px;
+  }
+
+  .cer1 img {
+    flex: 0.35;
+    object-fit: contain;
+  }
+
+  /* SET DỰ ÁN */
+  .da-el {
+    border: 3px solid rgb(226, 226, 226);
+    border-collapse: collapse;
+  }
+
+  .da-el img {
+    width: 100%;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    border-collapse: collapse;
+  }
+  .da-el-row2 {
+    padding: 10px 10px;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    border-collapse: collapse;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .da-el-row3 {
+    padding: 10px 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    border-collapse: collapse;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .da-el--year {
+    height: 30px;
+    width: 60px;
+    background-color: #199cdb;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* SET BẢNG */
+  table {
+    line-height: 1.3;
+    padding: 20px 10px;
+    font-size: 18px;
+    border: 3px solid rgb(226, 226, 226);
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 10px 10px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    border-collapse: collapse;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  th {
+    width: 20%;
+  }
+
+  /* SET FOOTER */
+
+  #footer {
+    background-color: #f7f7f7;
+    height: 100px;
+  }
+
+  .footer-el {
+    font-size: 24px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-el i {
+    color: #199cdb;
+    font-size: 50px;
+  }
+  .footer-el a {
+    text-decoration: none;
+  }
+}

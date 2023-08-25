@@ -1,0 +1,31 @@
+h1 {
+  color: blue;
+  border-bottom: 2px solid #d3e2dd;
+}
+.icon-timeline {
+  margin: auto;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #2dc08f;
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Table & Mobile*/
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+  .conten {
+    display: inline;
+    margin: auto;
+  }
+  * > svg {
+    margin: 0 auto;
+  }
+}
